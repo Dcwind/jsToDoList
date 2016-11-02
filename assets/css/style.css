@@ -27,6 +27,8 @@ header input {
     color: #fff;
     font-size: 15px;
     font-weight: 400;
+    text-indent: 18px;
+    padding: 0px 60px 0 0;
     background: rgba(255,255,255, 0.2);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -70,5 +72,14 @@ header button {
   z-index: 2;
   border-radius: 25px;
   background: #fff;
-  
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+
+
+  -webkit-apearaance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  -o-appearance:none;
+  appearance:none;
 }

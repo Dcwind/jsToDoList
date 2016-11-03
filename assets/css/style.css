@@ -2,11 +2,15 @@
 
 body {
   background: #edf0f1;
+  padding: 80px 0 0 0;
 }
 body, input, button {
   font-family: 'Roboto', sans-serif;
 }
 
+.nofill {
+  fill: none;
+}
 
 header{
     width: 100%;
@@ -102,6 +106,19 @@ header button svg .fill {
   fill:#25b;
 }
 
+.container {
+  width: 100%;
+  float:left;
+  padding: 15px;
+}
+
+ul.todo {
+  width: 100%;
+  float: left;
+
+}
+
+
 ul.todo li {
   width: 100%;
   min-height: 50px;
@@ -114,7 +131,7 @@ ul.todo li {
   background: #fff;
   border-radius: 5px;
   position: relative;
-  box-shadow: opx 1px 2px rgba(44, 62, 80, 0.10);
+  box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10);
   margin: 0 0 10px 0;
   padding: 14px 100px 14px 14px;
 }
@@ -151,7 +168,7 @@ ul.todo li .buttons button {
   appearance:none;
 }
 
-ul.todo li .buttons button:last-of-type {
+ul.todo li .buttons button:last-of-type:before {
   content: '';
   width: 1px;
   height: 30px;
@@ -160,4 +177,13 @@ ul.todo li .buttons button:last-of-type {
   left: 0;
   background: #edf0f1;
 
+}
+
+ul.todo li .buttons button svg {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -11px 0 0 -11px;
 }

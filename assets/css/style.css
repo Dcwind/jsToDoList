@@ -189,6 +189,11 @@ ul.todo li .buttons button svg {
   margin: -11px 0 0 -11px;
 }
 
+ul.todo li .buttons button.complete svg {
+  border-radius: 11px;
+  border: 1.5px solid #25b;
+}
+
 ul.todo li .buttons button svg .fill {
   -webkit-transition:fill 0.2s ease;
   -moz-transition:fill 0.2s ease;

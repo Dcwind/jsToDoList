@@ -158,6 +158,7 @@ ul.todo li .buttons button {
   border: 0px;
   box-shadow: none;
   outline: none;
+  cursor: pointer;
 
 
 
@@ -186,4 +187,20 @@ ul.todo li .buttons button svg {
   top: 50%;
   left: 50%;
   margin: -11px 0 0 -11px;
+}
+
+ul.todo li .buttons button svg .fill {
+  -webkit-transition:fill 0.2s ease;
+  -moz-transition:fill 0.2s ease;
+  -ms-transition:fill 0.2s ease;
+  -o-transiton:fill 0.2s ease;
+  transition:fill 0.2s ease;
+}
+
+ul.todo li .buttons button.remove svg .fill {
+  fill: #c0cecb;
+}
+
+ul.todo li .buttons button.remove:hover svg .fill {
+  fill:#e85656;
 }

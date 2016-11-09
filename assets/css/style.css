@@ -194,6 +194,15 @@ ul.todo li .buttons button.complete svg {
   border: 1.5px solid #25b;
 }
 
+ul.todo#completed li .buttons button.complete svg {
+  background: #25b;
+  border: 0px;
+}
+
+ul.todo#completed li .buttons button.complete svg .fill {
+  fill: #fff;
+}
+
 ul.todo li .buttons button svg .fill {
   -webkit-transition:fill 0.2s ease;
   -moz-transition:fill 0.2s ease;

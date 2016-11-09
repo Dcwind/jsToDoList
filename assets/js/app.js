@@ -5,6 +5,8 @@
   document.getElementById('addItem').addEventListener('click', function () {
     var value = document.getElementById('item').value;
     if(value){
-      console.log(value);
+
     }
   });
+
+function add

@@ -11,6 +11,8 @@ var completeSVG = '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000
   });
 
 function addItemTodo (text) {
+var list = document.getElementById('todo');
+
   var item = document.createElement('li');
   item.innerText = text;
 
@@ -27,6 +29,9 @@ function addItemTodo (text) {
 
   buttons.appendChild(remove);
   buttons.appendChild(complete);
+  item.appendChild(buttons);
+
+  list.appendChild(item);
 
 
 

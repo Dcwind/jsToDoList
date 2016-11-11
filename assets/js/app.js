@@ -25,6 +25,9 @@ function addItemTodo (text) {
   complete.classList.add('complete');
   complete.innerHTML = completeSVG;
 
+  buttons.appendChild(remove);
+  buttons.appendChild(complete);
+
 
 
 }

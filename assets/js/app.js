@@ -8,7 +8,7 @@ var completeSVG = '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000
     var value = document.getElementById('item').value;
     if(value) {
     addItemTodo(value);
-    document.getElementById('item').value = "";
+    document.getElementById('item').value = ""; 
     }
 
   });

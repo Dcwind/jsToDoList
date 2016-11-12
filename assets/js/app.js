@@ -6,7 +6,10 @@ var completeSVG = '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000
 
   document.getElementById('addItem').addEventListener('click', function () {
     var value = document.getElementById('item').value;
-    if(value) addItemTodo(value);
+    if(value) {
+    addItemTodo(value);
+    document.getElementById('item').value = "";
+    }
 
   });
 
@@ -31,7 +34,7 @@ var list = document.getElementById('todo');
   buttons.appendChild(complete);
   item.appendChild(buttons);
 
-  list.appendChild(item);
+  list.insertBefore(item, list.childNodes[0]);
 
 
 

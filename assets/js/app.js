@@ -8,7 +8,7 @@ var completeSVG = '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000
     var value = document.getElementById('item').value;
     if(value) {
     addItemTodo(value);
-    document.getElementById('item').value = ""; 
+    document.getElementById('item').value = "";
     }
 
   });
@@ -25,6 +25,9 @@ var list = document.getElementById('todo');
   var remove = document.createElement('button');
   remove.classList.add('remove');
   remove.innerHTML = removeSVG;
+
+  // Add click event for removing item
+  remove.addEventListener('click', removeItem);
 
   var complete = document.createElement('button');
   complete.classList.add('complete');

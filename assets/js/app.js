@@ -12,7 +12,15 @@ var completeSVG = '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000
     }
 
   });
+// remove function
+function removeItem() {
+  var item = this.parentNode.parentNode;
+  var parent = item.parentNode;
 
+  parent.removeChild(item);
+}
+
+// Adds a new item to the todo list
 function addItemTodo (text) {
 var list = document.getElementById('todo');
 

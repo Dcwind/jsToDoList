@@ -28,11 +28,8 @@ function completeItem() {
   // Ckeck if item should be added to completed list or redone.
   var target = (id === 'todo') ? document.getElementById('completed') : document.getElementById('todo');
 
-  if (id === 'todo') {
-
-  } else {
-
-  }
+  parent.removeChild(item);
+  target.insertBefore(item, target.childNodes[0]);
 }
 
 // Adds a new item to the todo list

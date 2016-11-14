@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dcwind/jsToDoList.git"
+  },
+  "author": "Daniel Ekwuazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dcwind/jsToDoList/issues"
+  },
+  "homepage": "https://github.com/Dcwind/jsToDoList#readme"
+}

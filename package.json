@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Dcwind/jsToDoList.git"
   },
-  "author": "Daniel Ekwuazi",
+  "author": "Daniel Ekwuazi <danielekwuazi@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dcwind/jsToDoList/issues"
   },
-  "homepage": "https://github.com/Dcwind/jsToDoList#readme"
+  "homepage": "https://github.com/Dcwind/jsToDoList#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }

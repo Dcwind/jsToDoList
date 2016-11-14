@@ -19,7 +19,7 @@ function removeItem() {
 
   parent.removeChild(item);
 }
-
+// adds item to complete list
 function completeItem() {
   var item = this.parentNode.parentNode;
   var parent = item.parentNode;

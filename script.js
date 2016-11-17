@@ -1,7 +1,7 @@
 $(function () {
-// GET/Read
-$().on('click',function(){
-  console.log('_TEST_');
-});
+    // GET/Read
+    $('#addItem').on('click',function(){
+      console.log('_TEST_');
+    });
 
 });

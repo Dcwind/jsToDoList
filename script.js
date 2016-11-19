@@ -1,7 +1,14 @@
 $(function () {
     // GET/Read
-    $('').on('click',function(){
-      console.log('_TEST_');
+    $('#addItem').on('click',function(){
+      $.ajax({
+        url: '/tasks',
+        contentType: 'application/json',
+        success: function(response) {
+          console.log(response);
+        }
+
+      });
     });
 
 });

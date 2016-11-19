@@ -8,7 +8,7 @@ var task = [
   },
   {
     id: 2,
-    name: 'microwave'
+    name: 'Do Economics homework'
   }
 ];
 

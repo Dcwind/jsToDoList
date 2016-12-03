@@ -1,5 +1,5 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 var task = [
   {
@@ -14,13 +14,13 @@ var task = [
 
 var currentId = 2;
 
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static(__dirname));
-app.get('/tasks', function (req, res) {
+app.get('/tasks', (req, res) => {
   res.send({tasks : task});
 });
 
-app.listen(PORT, function(){
+app.listen(PORT, () => {
     console.log('Server listening on ' + PORT);
 });
